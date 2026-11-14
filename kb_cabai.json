@@ -1,165 +1,255 @@
 {
   "judul": "Diagnosis Hama dan Penyakit Tanaman Cabai",
   "metode": "Backward Chaining",
-  "batas": "Pengetahuan dalam sistem ini diparafrasakan dari dua booklet Badan Litbang Pertanian Kementerian Pertanian (BPTP Jambi 2014 dan BPTP Sumatera Utara 2013), lembar fakta AVRDC - The World Vegetable Center (2004), dan basis data Ephytia milik INRAE Prancis. Sistem hanya berlaku untuk tanaman cabai di lahan tropis dan hanya mengenali delapan kemungkinan: layu bakteri, layu fusarium, serangan thrips, serangan tungau, penyakit virus kuning, virus kuning dengan vektor kutu kebul aktif, antraknosa, dan serangan lalat buah. Diagnosis didasarkan pada gejala yang dapat dilihat langsung oleh pengguna, sehingga masalah lain seperti kekurangan hara, kekeringan, atau nematoda tidak tercakup, dan satu tanaman dapat mengalami lebih dari satu gangguan sekaligus. Hasilnya adalah saran awal, bukan keputusan akhir; pastikan ke petugas POPT atau penyuluh pertanian setempat sebelum mengambil tindakan, dan gunakan pestisida hanya yang terdaftar sesuai petunjuk labelnya.",
+  "batas": "Pengetahuan dalam sistem ini diparafrasakan dari tujuh sumber yang diakses pada 14 November 2026: dua lembar panduan Tropilég dari INRAE (lembaga riset pertanian pemerintah Prancis) tentang layu bakteri dan tungau pada cabai, serta lima artikel jurnal universitas di Indonesia (IPB University, Universitas Trunojoyo Madura, UIN Sunan Gunung Djati Bandung, dan Universitas Mataram) tentang layu fusarium, thrips, virus kuning, antraknosa, dan lalat buah pada cabai. Sistem hanya berlaku untuk tanaman cabai di lahan tropis dan hanya mengenali delapan kemungkinan berdasarkan gejala yang bisa dilihat langsung: layu bakteri, layu fusarium, serangan thrips, serangan tungau, penyakit virus kuning, virus kuning dengan penular kutu kebul aktif, antraknosa, dan serangan lalat buah. Gangguan lain seperti kekurangan hara, kekeringan, nematoda, atau bercak daun tidak tercakup, dan satu tanaman bisa mengalami lebih dari satu gangguan sekaligus. Basis aturan perlu diperbarui jika terbit pedoman resmi yang lebih baru. Hasil program adalah saran awal, bukan keputusan akhir: keputusan mencabut tanaman, menyemprot pestisida, atau memusnahkan hasil panen harus dikonfirmasi ke petugas POPT atau penyuluh pertanian setempat, dan pestisida hanya boleh dipakai jika terdaftar dan sesuai petunjuk labelnya.",
   "sumber": {
     "S1": {
-      "judul": "Hama dan Penyakit pada Tanaman Cabai serta Pengendaliannya",
-      "penulis": "Araz Meilin",
-      "penerbit": "BPTP Jambi, Badan Litbang Pertanian, Kementerian Pertanian",
-      "tahun": "2014",
-      "url": "https://repository.pertanian.go.id/bitstream/handle/123456789/10254/14bookcabe.pdf",
+      "judul": "Tropilég - Bacterial wilt (Ralstonia solanacearum): Symptoms on pepper",
+      "penulis": "INRAE, portal Ephytia (Tropilég)",
+      "penerbit": "INRAE (Institut national de recherche pour l'agriculture, l'alimentation et l'environnement), lembaga riset pemerintah Prancis, bersama CIRAD",
+      "tahun": "2022",
+      "url": "https://ephytia.inrae.fr/en/C/23684/Tropileg-Symptoms-on-pepper",
+      "url_tambahan": "https://ephytia.inrae.fr/en/C/23093/Tropileg-Bacterial-wilt-Ralstonia-solanacearum",
       "diakses": "14 November 2026"
     },
     "S2": {
-      "judul": "Teknik Pengendalian Penyakit Kuning pada Tanaman Cabai",
-      "penulis": "Lukas Sebayang",
-      "penerbit": "BPTP Sumatera Utara, Badan Litbang Pertanian, Kementerian Pertanian",
-      "tahun": "2013",
-      "url": "https://kikp-pertanian.id/bbppkupang/uploaded_files/temporary/DigitalCollection/M2NiYTRhMjRlMmMyMTA4MmUzYjU4N2I5YmQ3Njc0NzJjYTM2MTI0Mw==.pdf",
+      "judul": "Pengaruh Media Tanam terhadap Pertumbuhan Bibit Tanaman Cabai (Capsicum annuum L) dan Intensitas Serangan Layu Fusarium (Fusarium oxysporum Schlecth)",
+      "penulis": "Gunawan Djajakirana dan Putri Handayani Sijabat",
+      "penerbit": "Jurnal Ilmu Tanah dan Lingkungan 24(2): 62-66, IPB University",
+      "tahun": "2022",
+      "url": "https://journal.ipb.ac.id/jtanah/article/view/42375",
+      "doi": "10.29244/jitl.24.2.62-66",
       "diakses": "14 November 2026"
     },
     "S3": {
-      "judul": "Pepper Diseases: Anthracnose (AVRDC Publication 04-574)",
-      "penulis": "Ray Cerkauskas (ed. Tom Kalb)",
-      "penerbit": "AVRDC - The World Vegetable Center",
-      "tahun": "2004",
-      "url": "https://worldveg.tind.io/record/39499/files/f0094.pdf",
+      "judul": "Populasi Thrips parvispinus Karny (Thysanoptera: Thripidae) pada Bunga Tanaman Cabai Besar di Bali",
+      "penulis": "Ketut Ayu Yuliadhi dan Ni Putu Eka Pratiwi",
+      "penerbit": "Agrovigor: Jurnal Agroekoteknologi 15(1): 6-9, Universitas Trunojoyo Madura",
+      "tahun": "2022",
+      "url": "https://journal.trunojoyo.ac.id/agrovigor/article/view/9237",
+      "doi": "10.21107/agrovigor.v15i1.9237",
       "diakses": "14 November 2026"
     },
     "S4": {
-      "judul": "Tropileg - Symptoms on Pepper (Ralstonia solanacearum)",
-      "penulis": "Ephytia",
-      "penerbit": "INRAE, Prancis",
+      "judul": "Tropilég - Acariosis deformans (tarsonema), Polyphagotarsonemus latus",
+      "penulis": "INRAE, portal Ephytia (Tropilég)",
+      "penerbit": "INRAE (Institut national de recherche pour l'agriculture, l'alimentation et l'environnement), lembaga riset pemerintah Prancis, bersama CIRAD",
       "tahun": "2022",
-      "url": "https://ephytia.inrae.fr/en/C/23684/Tropileg-Symptomes-Piment",
+      "url": "https://ephytia.inrae.fr/en/C/24347/Tropileg-Acariosis-deformans-tarsonema",
+      "diakses": "14 November 2026"
+    },
+    "S5": {
+      "judul": "Deteksi dan Kajian Kisaran Inang Virus Penyebab Penyakit Daun Keriting Kuning Cabai",
+      "penulis": "Sri Sulandari, Rusmilah Suseno, Sri Hendrastuti Hidayat, Jumanto Harjosudarmo, dan Soemartono Sosromarsono",
+      "penerbit": "HAYATI Journal of Biosciences 13(1): 1-6, IPB University",
+      "tahun": "2006",
+      "url": "https://journal.ipb.ac.id/index.php/hayati/article/view/196",
+      "diakses": "14 November 2026"
+    },
+    "S6": {
+      "judul": "Komponen Epidemi Penyakit Antraknosa pada Tanaman Cabai di Kecamatan Baturraden Kabupaten Banyumas",
+      "penulis": "Nur Prihatiningsih, Heru Adi Djatmiko, dan Erminawati",
+      "penerbit": "Jurnal Agro 7(2): 203-212, UIN Sunan Gunung Djati Bandung",
+      "tahun": "2020",
+      "url": "https://journal.uinsgd.ac.id/index.php/ja/article/view/8000",
+      "doi": "10.15575/8000",
+      "diakses": "14 November 2026"
+    },
+    "S7": {
+      "judul": "Populasi dan Intensitas Serangan Lalat Buah (Bactrocera spp.) pada Pertanaman Cabai Keriting (Capsicum annum L.) di Desa Darmasari Kabupaten Lombok Timur",
+      "penulis": "Ahmad Izuddin Holis, Hery Haryanto, dan Mulat Isnaini",
+      "penerbit": "Jurnal Ilmiah Mahasiswa Agrokomplek 2(1): 161-170, Universitas Mataram",
+      "tahun": "2023",
+      "url": "https://journal.unram.ac.id/index.php/jima/article/view/2332",
+      "doi": "10.29303/jima.v2i1.2332",
       "diakses": "14 November 2026"
     }
   },
-  "tujuan": [
+  "kesimpulan": [
     {"fakta": "layu bakteri", "nama_ilmiah": "Ralstonia solanacearum"},
     {"fakta": "layu fusarium", "nama_ilmiah": "Fusarium oxysporum"},
     {"fakta": "serangan thrips", "nama_ilmiah": "Thrips parvispinus"},
     {"fakta": "serangan tungau", "nama_ilmiah": "Polyphagotarsonemus latus"},
-    {"fakta": "penyakit virus kuning", "nama_ilmiah": "Begomovirus, famili Geminiviridae"},
-    {"fakta": "virus kuning dengan vektor kutu kebul aktif", "nama_ilmiah": "Begomovirus + Bemisia tabaci"},
+    {"fakta": "penyakit virus kuning", "nama_ilmiah": "Begomovirus (Geminiviridae)"},
+    {"fakta": "virus kuning dengan penular kutu kebul aktif", "nama_ilmiah": "Begomovirus + Bemisia tabaci"},
     {"fakta": "antraknosa", "nama_ilmiah": "Colletotrichum spp."},
-    {"fakta": "serangan lalat buah", "nama_ilmiah": "Bactrocera sp."}
+    {"fakta": "serangan lalat buah", "nama_ilmiah": "Bactrocera spp."}
   ],
   "aturan": [
-    {"id": "R1",  "jika": ["tanaman layu", "pembuluh batang cokelat"], "mode": "dan", "maka": "gangguan pembuluh angkut", "sumber": ["S1", "S4"]},
-    {"id": "R2",  "jika": ["gangguan pembuluh angkut", "lendir putih pada uji gelas air"], "mode": "dan", "maka": "layu bakteri", "sumber": ["S1", "S4"]},
-    {"id": "R3",  "jika": ["daun menguning dari bawah", "miselium putih di pangkal batang"], "mode": "atau", "maka": "tanda jamur fusarium", "sumber": ["S1"]},
-    {"id": "R4",  "jika": ["gangguan pembuluh angkut", "tanda jamur fusarium"], "mode": "dan", "maka": "layu fusarium", "sumber": ["S1"]},
-    {"id": "R5",  "jika": ["daun muda keriting", "pucuk menggulung"], "mode": "atau", "maka": "daun keriting", "sumber": ["S1"]},
-    {"id": "R6",  "jika": ["daun keriting", "bercak keperakan di bawah daun"], "mode": "dan", "maka": "serangan thrips", "sumber": ["S1"]},
-    {"id": "R7",  "jika": ["daun keriting", "daun menebal kaku kecokelatan", "daun melengkung ke bawah"], "mode": "dan", "maka": "serangan tungau", "sumber": ["S1"]},
-    {"id": "R8",  "jika": ["tulang daun pucuk memucat", "daun kuning terang"], "mode": "atau", "maka": "gejala kuning pada pucuk", "sumber": ["S1", "S2"]},
-    {"id": "R9",  "jika": ["gejala kuning pada pucuk", "daun keriting", "tanaman kerdil"], "mode": "dan", "maka": "penyakit virus kuning", "sumber": ["S1", "S2"]},
-    {"id": "R10", "jika": ["penyakit virus kuning", "kutu kebul ditemukan"], "mode": "dan", "maka": "virus kuning dengan vektor kutu kebul aktif", "sumber": ["S2"]},
-    {"id": "R11", "jika": ["buah membusuk", "buah gugur sebelum matang"], "mode": "atau", "maka": "kerusakan buah", "sumber": ["S1"]},
-    {"id": "R12", "jika": ["kerusakan buah", "bercak cekung kebasahan pada buah", "bercak melingkar konsentris"], "mode": "dan", "maka": "antraknosa", "sumber": ["S1", "S3"]},
-    {"id": "R13", "jika": ["titik hitam di pangkal buah", "belatung di dalam buah"], "mode": "atau", "maka": "tanda lalat buah", "sumber": ["S1"]},
-    {"id": "R14", "jika": ["kerusakan buah", "tanda lalat buah"], "mode": "dan", "maka": "serangan lalat buah", "sumber": ["S1"]}
+    {
+      "id": "R1",
+      "jika": ["tanaman layu", "pembuluh batang cokelat"],
+      "mode": "dan",
+      "maka": "gangguan pembuluh angkut",
+      "sumber": ["S1", "S2"],
+      "rujukan": "S1 bagian Symptoms; S2 hlm. 63"
+    },
+    {
+      "id": "R2",
+      "jika": ["gangguan pembuluh angkut", "daun layu tetap hijau", "lendir putih dari potongan batang"],
+      "mode": "dan",
+      "maka": "layu bakteri",
+      "sumber": ["S1"],
+      "rujukan": "S1 bagian Symptoms dan Signs"
+    },
+    {
+      "id": "R3",
+      "jika": ["daun menguning dari bawah", "hifa putih seperti kapas di pangkal batang"],
+      "mode": "atau",
+      "maka": "tanda layu fusarium",
+      "sumber": ["S2"],
+      "rujukan": "S2 hlm. 63"
+    },
+    {
+      "id": "R4",
+      "jika": ["gangguan pembuluh angkut", "tanda layu fusarium"],
+      "mode": "dan",
+      "maka": "layu fusarium",
+      "sumber": ["S2"],
+      "rujukan": "S2 hlm. 63"
+    },
+    {
+      "id": "R5",
+      "jika": ["daun muda keriting", "pucuk menggulung"],
+      "mode": "atau",
+      "maka": "daun keriting",
+      "sumber": ["S3", "S4", "S5"],
+      "rujukan": "S3 hlm. 6-7; S4 bagian Symptoms; S5 hlm. 1, 3"
+    },
+    {
+      "id": "R6",
+      "jika": ["daun keriting", "bercak keperakan pada daun"],
+      "mode": "dan",
+      "maka": "serangan thrips",
+      "sumber": ["S3"],
+      "rujukan": "S3 hlm. 6-7"
+    },
+    {
+      "id": "R7",
+      "jika": ["daun keriting", "daun menebal dan kaku", "daun kecokelatan dan bawah daun mengilap"],
+      "mode": "dan",
+      "maka": "serangan tungau",
+      "sumber": ["S4"],
+      "rujukan": "S4 bagian Symptoms"
+    },
+    {
+      "id": "R8",
+      "jika": ["tulang daun menjernih", "daun kuning cerah"],
+      "mode": "atau",
+      "maka": "gejala kuning",
+      "sumber": ["S5"],
+      "rujukan": "S5 hlm. 1-2"
+    },
+    {
+      "id": "R9",
+      "jika": ["gejala kuning", "daun keriting", "tanaman kerdil"],
+      "mode": "dan",
+      "maka": "penyakit virus kuning",
+      "sumber": ["S5"],
+      "rujukan": "S5 hlm. 1-3"
+    },
+    {
+      "id": "R10",
+      "jika": ["penyakit virus kuning", "kutu kebul di bawah daun"],
+      "mode": "dan",
+      "maka": "virus kuning dengan penular kutu kebul aktif",
+      "sumber": ["S5"],
+      "rujukan": "S5 hlm. 1-2"
+    },
+    {
+      "id": "R11",
+      "jika": ["buah membusuk", "buah gugur sebelum matang"],
+      "mode": "atau",
+      "maka": "kerusakan buah",
+      "sumber": ["S6", "S7"],
+      "rujukan": "S6 hlm. 204; S7 hlm. 167"
+    },
+    {
+      "id": "R12",
+      "jika": ["kerusakan buah", "bercak cekung kehitaman pada buah", "spora merah jambu-oranye melingkar konsentris"],
+      "mode": "dan",
+      "maka": "antraknosa",
+      "sumber": ["S6"],
+      "rujukan": "S6 hlm. 204-205"
+    },
+    {
+      "id": "R13",
+      "jika": ["bintik hitam bekas tusukan pada kulit buah", "larva di dalam buah"],
+      "mode": "dan",
+      "maka": "tanda lalat buah",
+      "sumber": ["S7"],
+      "rujukan": "S7 hlm. 166-167"
+    },
+    {
+      "id": "R14",
+      "jika": ["kerusakan buah", "tanda lalat buah"],
+      "mode": "dan",
+      "maka": "serangan lalat buah",
+      "sumber": ["S7"],
+      "rujukan": "S7 hlm. 161, 167"
+    }
   ],
   "pertanyaan": {
-    "tanaman layu": {
-      "tanya": "Apakah tanaman (sebagian cabang atau seluruhnya) tampak layu?"
-    },
-    "pembuluh batang cokelat": {
-      "tanya": "Jika pangkal batang dibelah memanjang, apakah jaringan pembuluh di dalamnya berwarna cokelat?",
-      "petunjuk": "Belah pangkal batang tanaman yang layu dengan pisau bersih, lalu amati bagian dalamnya."
-    },
-    "lendir putih pada uji gelas air": {
-      "tanya": "Apakah keluar lendir putih keruh dari potongan batang saat dicelupkan ke gelas berisi air bening?",
-      "petunjuk": "Uji gelas air: potong batang bagian bawah, celupkan ujung potongan ke air bening, lalu tunggu sekitar 5 menit."
-    },
-    "daun menguning dari bawah": {
-      "tanya": "Apakah daun menguning mulai dari daun bagian bawah, lalu layunya menjalar ke atas?"
-    },
-    "miselium putih di pangkal batang": {
-      "tanya": "Apakah pada pangkal batang atau akar terlihat lapisan jamur putih seperti kapas?"
-    },
-    "daun muda keriting": {
-      "tanya": "Apakah daun-daun muda tampak keriting, keriput, atau mengerut?"
-    },
-    "pucuk menggulung": {
-      "tanya": "Apakah pucuk atau tunas tanaman menggulung?"
-    },
-    "bercak keperakan di bawah daun": {
-      "tanya": "Apakah permukaan bawah daun memiliki bercak berwarna keperakan (mengilap seperti perak)?",
-      "petunjuk": "Balik beberapa daun muda dan lihat permukaan bawahnya."
-    },
-    "daun menebal kaku kecokelatan": {
-      "tanya": "Apakah daun menebal, terasa kaku, dan warnanya berubah menjadi tembaga atau kecokelatan?"
-    },
-    "daun melengkung ke bawah": {
-      "tanya": "Apakah helai daun melengkung ke arah bawah?"
-    },
-    "tulang daun pucuk memucat": {
-      "tanya": "Apakah tulang daun pada daun pucuk tampak memucat atau menjernih?"
-    },
-    "daun kuning terang": {
-      "tanya": "Apakah daun berwarna kuning terang (sebagian atau seluruh helai daun)?"
-    },
-    "tanaman kerdil": {
-      "tanya": "Apakah tanaman kerdil dengan daun yang lebih kecil dibandingkan tanaman sehat?"
-    },
-    "kutu kebul ditemukan": {
-      "tanya": "Apakah ditemukan serangga kecil berwarna putih (kutu kebul) di permukaan bawah daun?",
-      "petunjuk": "Kutu kebul dewasa berukuran kecil dan berwarna putih; permukaan bawah daun yang dihuni biasanya tampak berlapis lilin seperti tepung."
-    },
-    "buah membusuk": {
-      "tanya": "Apakah ada buah cabai yang membusuk?"
-    },
-    "buah gugur sebelum matang": {
-      "tanya": "Apakah buah gugur atau rontok sebelum waktunya?"
-    },
-    "bercak cekung kebasahan pada buah": {
-      "tanya": "Apakah pada buah terdapat bercak yang agak cekung dan tampak kebasahan (berair)?"
-    },
-    "bercak melingkar konsentris": {
-      "tanya": "Apakah bercak itu melebar membentuk lingkaran-lingkaran konsentris berwarna hitam, oranye, atau merah muda salem?"
-    },
-    "titik hitam di pangkal buah": {
-      "tanya": "Apakah terdapat titik hitam kecil (bekas tusukan) pada pangkal buah?"
-    },
-    "belatung di dalam buah": {
-      "tanya": "Jika buah yang rusak dibelah, apakah ada belatung (larva) di dalamnya?"
-    }
+    "tanaman layu": "Apakah tanaman (sebagian cabang atau seluruhnya) tampak layu?",
+    "pembuluh batang cokelat": "Jika pangkal batang dipotong atau dibelah, apakah jaringan pembuluh di dalamnya berwarna cokelat?",
+    "daun layu tetap hijau": "Apakah daun yang layu tetap berwarna hijau dan masih menempel pada batang?",
+    "lendir putih dari potongan batang": "Apakah keluar benang lendir berwarna putih dari potongan batang setelah dicelupkan ke gelas berisi air jernih?",
+    "daun menguning dari bawah": "Apakah layu dan menguningnya daun dimulai dari daun bagian bawah?",
+    "hifa putih seperti kapas di pangkal batang": "Apakah pangkal batang atau bagian yang luka tertutup jamur putih seperti kapas?",
+    "daun muda keriting": "Apakah daun-daun muda tampak keriting, berkerut, atau berubah bentuk?",
+    "pucuk menggulung": "Apakah daun pucuk atau tepi daun menggulung?",
+    "bercak keperakan pada daun": "Apakah ada bercak keperakan (mengilap seperti perak) pada daun, yang lama-kelamaan menjadi kecokelatan?",
+    "daun menebal dan kaku": "Apakah daun terasa lebih tebal dan kaku dari biasanya?",
+    "daun kecokelatan dan bawah daun mengilap": "Apakah daun berwarna perunggu atau kecokelatan, dengan permukaan bawah daun tampak mengilap?",
+    "tulang daun menjernih": "Apakah tulang daun tampak menjernih atau memucat (vein clearing)?",
+    "daun kuning cerah": "Apakah helai daun berwarna kuning cerah?",
+    "tanaman kerdil": "Apakah tanaman kerdil dengan daun yang lebih kecil dibandingkan tanaman sehat?",
+    "kutu kebul di bawah daun": "Apakah ada serangga kecil bersayap putih (kutu kebul) di permukaan bawah daun?",
+    "buah membusuk": "Apakah ada buah cabai yang membusuk?",
+    "buah gugur sebelum matang": "Apakah buah gugur atau rontok sebelum waktunya?",
+    "bercak cekung kehitaman pada buah": "Apakah pada buah ada bercak kehitaman yang bundar dan agak cekung (melekuk)?",
+    "spora merah jambu-oranye melingkar konsentris": "Apakah pada bercak itu tampak massa berwarna merah jambu hingga oranye yang membentuk cincin melingkar (konsentris)?",
+    "bintik hitam bekas tusukan pada kulit buah": "Apakah ada bintik hitam kecil seperti bekas tusukan jarum pada kulit buah?",
+    "larva di dalam buah": "Jika buah yang rusak dibelah, apakah ada larva (belatung) di dalamnya?"
+  },
+  "petunjuk": {
+    "pembuluh batang cokelat": "Potong atau belah pangkal batang tanaman yang layu dengan pisau bersih, lalu amati bagian dalamnya.",
+    "lendir putih dari potongan batang": "Uji gelas air: celupkan potongan batang bagian bawah ke gelas berisi air jernih, lalu amati sekitar 5 menit.",
+    "daun kecokelatan dan bawah daun mengilap": "Balik beberapa daun muda dan lihat permukaan bawahnya.",
+    "kutu kebul di bawah daun": "Balik beberapa daun dan periksa permukaan bawahnya."
   },
   "saran": {
     "layu bakteri": {
-      "teks": "Cabut dan musnahkan tanaman yang sakit, gunakan benih sehat, lakukan rotasi dengan tanaman bukan inang, dan manfaatkan agens hayati Trichoderma atau Gliocladium. Bakterisida hanya pilihan terakhir.",
-      "sumber": ["S1"]
+      "teks": "Menurut sumber, belum ada cara yang efektif mengendalikan bakteri ini selama masa tanam, jadi pencegahan yang utama: tanam di lahan bebas penyakit dengan bibit sehat, lakukan pergiliran dengan tanaman bukan inang seperti jagung, padi, atau kedelai, perbaiki drainase, hindari melukai akar, bersihkan alat kerja, dan musnahkan akar serta batang tanaman sakit di akhir musim.",
+      "rujukan": "S1 halaman Bacterial wilt, bagian Management"
     },
     "layu fusarium": {
-      "teks": "Cabut dan musnahkan tanaman terserang, berikan Trichoderma atau Gliocladium bersamaan dengan pupuk dasar, dan gunakan fungisida hanya sebagai pilihan terakhir.",
-      "sumber": ["S1"]
+      "teks": "Tambahkan bahan organik seperti arang sekam dan cocopeat pada media tanam atau pembibitan untuk memperbaiki sifat media dan menekan serangan jamur.",
+      "rujukan": "S2 hlm. 64-65"
     },
     "serangan thrips": {
-      "teks": "Pasang mulsa plastik perak dan perangkap warna kuning (sekitar 40 buah per hektare), pangkas bagian yang terserang, dan manfaatkan musuh alami. Insektisida baru dipakai bila serangan mencapai ambang 15% per tanaman contoh.",
-      "sumber": ["S1"]
+      "teks": "Sumber yang dipakai tidak membahas cara pengendalian. Konsultasikan langkah pengendalian dengan petugas POPT atau penyuluh pertanian setempat.",
+      "rujukan": "S3 (tidak membahas pengendalian)"
     },
     "serangan tungau": {
-      "teks": "Buang dan musnahkan bagian tanaman yang terserang, manfaatkan predator Amblyseius cucumeris, dan gunakan akarisida terdaftar bila populasi tungau sudah ditemukan.",
-      "sumber": ["S1"]
+      "teks": "Bersihkan gulma di dalam dan sekitar lahan, pastikan bibit sehat sebelum ditanam, cabut atau tangani tanaman yang pertama kali terserang beserta tanaman di sekitarnya, dan musnahkan sisa tanaman. Akarisida bisa dipakai, tetapi tungau ini dikenal mudah menjadi kebal.",
+      "rujukan": "S4 bagian Management"
     },
     "penyakit virus kuning": {
-      "teks": "Tanaman yang sudah terinfeksi tidak dapat disembuhkan, jadi cabut dan musnahkan agar tidak menjadi sumber penularan. Bersihkan gulma inang, gunakan varietas tahan dan bibit sehat, serta berikan pupuk berimbang.",
-      "sumber": ["S1", "S2"]
+      "teks": "Hindari menanam cabai berdampingan dengan tomat, bersihkan gulma inang seperti babadotan, waspadai kacang panjang sebagai inang lain, dan pilih tanaman tumpang sari yang tidak terinfeksi seperti kacang tanah, mentimun, atau semangka.",
+      "rujukan": "S5 hlm. 4-5"
     },
-    "virus kuning dengan vektor kutu kebul aktif": {
-      "teks": "Prioritaskan pengendalian kutu kebul: pasang perangkap kuning dan mulsa plastik perak, tanam jagung atau tagetes sebagai tanaman pembatas, dan gunakan pestisida selektif atau nabati sesuai ambang pengendalian.",
-      "sumber": ["S2"]
+    "virus kuning dengan penular kutu kebul aktif": {
+      "teks": "Lakukan langkah yang sama seperti pada penyakit virus kuning, dan tingkatkan pemantauan kutu kebul terutama pada musim kemarau panjang karena kondisi itu mendukung perkembangan populasinya.",
+      "rujukan": "S5 hlm. 4-5"
     },
     "antraknosa": {
-      "teks": "Petik dan musnahkan buah yang sakit, gunakan benih dari buah sehat karena patogen terbawa benih, rotasi dengan tanaman bukan Solanaceae, pakai mulsa agar tanah tidak memercik ke buah, dan panen buah segera setelah matang. Fungisida hanya pilihan terakhir.",
-      "sumber": ["S1", "S3"]
+      "teks": "Utamakan teknik budidaya yang baik dan varietas tahan. Agens hayati seperti bakteri endofit cabai berpotensi menekan penyakit ini, sedangkan pengendalian kimia menjadi pilihan terakhir.",
+      "rujukan": "S6 hlm. 210-211"
     },
     "serangan lalat buah": {
-      "teks": "Kumpulkan dan musnahkan buah terserang, pasang perangkap atraktan metil eugenol (sekitar 40 perangkap per hektare, diganti tiap 2 minggu), bungkus buah, dan lakukan rotasi tanaman.",
-      "sumber": ["S1"]
+      "teks": "Terapkan sanitasi lahan, lakukan pergiliran tanaman untuk memutus siklus hidup lalat buah, dan bersihkan gulma yang bisa menjadi inang. Perangkap metil eugenol dapat dipakai untuk memantau populasi. Hindari menyemprot insektisida berulang karena dapat membuat lalat buah kebal.",
+      "rujukan": "S7 hlm. 161-162, 165, 168"
     }
   }
 }
